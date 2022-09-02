@@ -96,7 +96,7 @@ Add library initialization to your app.
    const seed = libs.crypto.randomSeed(15);
    const signer = new Signer({
      // Specify URL of the node on Testnet
-     NODE_URL: 'https://nodes-testnet.wavesnodes.com'
+     NODE_URL: 'https://nodes.mdmdcoin.com'
    });
    signer.setProvider(new ProviderSeed(seed));
    ```
@@ -109,7 +109,7 @@ Add library initialization to your app.
    
    const signer = new Signer({
      // Specify URL of the node on Testnet
-     NODE_URL: 'https://nodes-testnet.wavesnodes.com'
+     NODE_URL: 'https://nodes.mdmdcoin.com'
    });
    signer.setProvider(new ProviderWeb('https://testnet.waves.exchange/signer/'))
    ```
@@ -122,7 +122,7 @@ Add library initialization to your app.
    
    const signer = new Signer({
      // Specify URL of the node on Testnet
-     NODE_URL: 'https://nodes-testnet.wavesnodes.com'
+     NODE_URL: 'https://nodes.mdmdcoin.com'
    });
    signer.setProvider(new ProviderCloud('https://testnet.waves.exchange/signer/'))
    ```
