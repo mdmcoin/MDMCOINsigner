@@ -86,7 +86,7 @@ Signer supports all browsers except Brave.
 
 Add library initialization to your app.
 
-* For Testnet & ProviderSeed:
+* For Mainnet & ProviderSeed:
 
    ```js
    import { Signer } from '@waves/signer';
